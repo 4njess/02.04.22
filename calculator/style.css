@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calc{
+    background-color: #dbdbdb;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.vvd{
+    height: 48px;
+    margin: 8px;
+    border-radius: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 16px ;
+    color: #333333;
+
+}
+
+.Knopka{
+    background-color: #afafaf;
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #333333;
+    transition: opacity ease .25s;
+
+}
+
+.Knopka:hover{
+    opacity: .75;
+}
+
+.Knopka:focus{
+    opacity: .25;
+}
+
+.Knopka_func{
+    color: white;
+    background-color: #333333;
+
+}
+
+
+.Knopka_rvn{
+    color: white;
+    background-color: #ff4800;
+}
